@@ -1,0 +1,22 @@
+#logo {
+    width: 7%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+#nav {
+    float: right;
+    margin-top: 3.5%;
+}
+
+.about {
+    font-size: 180%;
+}
+.center {
+    margin-right: 10%;
+    margin-left: 10%;
+}
