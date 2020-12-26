@@ -7,11 +7,19 @@ h1 {
     text-align: center;
     font-size: 5vw;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #nav {
     float: right;
     margin-top: 3%;
+}
+
+.padded {
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 a:link {
@@ -51,7 +59,14 @@ a.current {
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
 }
-.center {
+.center1 {
+    text-align: center;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+}
+
+.center2 {
     margin-right: 10%;
     margin-left: 10%;
 }
