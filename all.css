@@ -40,6 +40,13 @@ a:visited {
     font-size: 1.5vw;
 }
 
+a.current {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+}
+
 .about {
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
