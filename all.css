@@ -6,6 +6,7 @@
 h1 {
     text-align: center;
     font-size: 300%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #nav {
@@ -15,6 +16,7 @@ h1 {
 
 .about {
     font-size: 180%;
+    font-family: 'Open Sans', sans-serif;
 }
 .center {
     margin-right: 10%;
