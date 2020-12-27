@@ -199,17 +199,25 @@ hr.catbreak {
     margin-right: 10%;
     padding-left: 0px;
     border-left: 0px;
-}
-
-.resumedescription {
-    float: left;
+    display: flex;
+    flex-direction: row;
 }
 
 .resumedate {
-    float: right;
     text-align: right;
 }
 
+.role {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    font-style: italic;
+}
 .coursework {
     font-size: 1.5vw;
     font-family: 'Open Sans', sans-serif;
