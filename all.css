@@ -157,16 +157,30 @@ hr {
     padding-bottom: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+hr.catbreak {
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    background: white;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .jobtitle {
     font-size: 1.5vw;
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
-    margin-top: 1%;
     padding-bottom: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
+    margin-top: 1%;
+    padding-top: 0px;
+    border-top: 0px;
 }
 
 .description {
@@ -194,4 +208,17 @@ hr {
 .resumedate {
     float: right;
     text-align: right;
+}
+
+.coursework {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
