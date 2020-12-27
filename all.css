@@ -143,15 +143,15 @@ h3 {
 .category {
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10%;
+    margin-left: 7%;
     padding-bottom: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
 }
 
 hr {
-    width: 80%;
-    margin-left: 10%;
+    width: 86%;
+    margin-left: 7%;
     background: grey;
     height: 0.1vw;
     padding-bottom: 0px;
@@ -163,7 +163,7 @@ hr {
 
 hr.catbreak {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 7%;
     border: none;
     background: white;
     padding-bottom: 0px;
@@ -182,8 +182,31 @@ hr.catbreak {
     padding-top: 0px;
     border-top: 0px;
 }
+.details {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 1%;
+}
 
 .description {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.description1 {
     font-size: 1.5vw;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 0px;
@@ -195,12 +218,11 @@ hr.catbreak {
 }
 
 .resumeitem {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 0px;
-    border-left: 0px;
+    margin-left: 7%;
+    margin-right: 7%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .resumedate {
@@ -227,6 +249,6 @@ hr.catbreak {
     padding-top: 0px;
     border-top: 0px;
     margin-top: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
