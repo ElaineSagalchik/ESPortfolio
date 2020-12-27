@@ -36,20 +36,20 @@ a:hover {
 }
 
 a:active {
-    color: black;
+    color:grey;
     text-decoration: underline;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a:visited {
-    color: grey;
+    color:grey;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a.current {
-    color: black;
+    color: #03c6fc;
     text-decoration: underline;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
@@ -152,7 +152,7 @@ h3 {
 hr {
     width: 86%;
     margin-left: 7%;
-    background: grey;
+    background: #03c6fc;
     height: 0.1vw;
     padding-bottom: 0px;
     border-bottom: 0px;
