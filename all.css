@@ -255,3 +255,83 @@ hr.catbreak {
     margin-left: 7%;
     margin-right: 7%;
 }
+
+/*Project Description*/
+.projecttitle {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.projectsection {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    color: #03c6fc;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.projectdescription {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0.2vw;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bullet {
+    font-size: 1.4vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0.2vw;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.processcat {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0.2vw;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.caption1 {
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8vw;
+    margin-left: 10%;
+    width: 40%;
+    text-align: center;
+}
+
+.three-frames {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
