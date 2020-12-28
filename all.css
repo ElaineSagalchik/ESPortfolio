@@ -362,3 +362,17 @@ hr.catbreak {
     margin-left: 9%;
     margin-right: 9%;
 }
+
+.caption2 {
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
