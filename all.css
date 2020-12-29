@@ -23,27 +23,28 @@ h1 {
 }
 
 a:link {
-    color: grey;
+    color:white;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a:hover {
-    color: grey;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
+    text-decoration: underline;
+    
 }
 
 a:active {
-    color:grey;
-    text-decoration: underline;
+    color:white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a:visited {
-    color:grey;
+    color:white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
@@ -95,13 +96,17 @@ a.current {
   .masonry-item,
   .masonry-item img {
      position: relative;
+     -webkit-filter: brightness(50%);
+    filter:brightness(50%);
   }
 
   .masonry-item:after {
     font-weight: bold;
     background-color: rgba(0, 0, 0, .5);
-    content: counter(masonry);
-    counter-increment: masonry;
+    /* content: counter(masonry);
+    counter-increment: masonry; */
+    /* content: '\A'; */
+    opacity: 1; 
     position: absolute;
     top: 0;
     left: 0; 
@@ -116,7 +121,16 @@ a.current {
 
   .masonry-item:hover:after {
     font-size: 30px;
-    background-color: rgba(0, 0, 0, .75);
+    /* background-color: rgba(0, 0, 0, .75); */
+  }
+
+  .masonry-button { 
+    position:absolute; 
+    top: 50%; left: 0; bottom: 50%; right: 0;
+    /* margin: auto;  */
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
   }
 
   /*Resume*/
