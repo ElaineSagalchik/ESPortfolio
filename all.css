@@ -23,14 +23,14 @@ h1 {
 }
 
 a:link {
-    color:white;
+    color:gray;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a:hover {
-    color: white;
+    color: gray;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
     text-decoration: underline;
@@ -38,13 +38,13 @@ a:hover {
 }
 
 a:active {
-    color:white;
+    color:gray;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
 
 a:visited {
-    color:white;
+    color:gray;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5vw;
 }
@@ -131,7 +131,13 @@ a.current {
     justify-content: center; 
     align-items: center;
     text-align: center;
+    color: white; 
   }
+  .masonry-button:hover,.masonry-button:active, .masonry-button:visited  { 
+      color: white; 
+  }
+
+
 
   /*Resume*/
 h2 {
