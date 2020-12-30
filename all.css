@@ -16,6 +16,7 @@ h1 {
 #nav {
     float: right;
     margin-top: 3%;
+    margin-right: 2%;
 }
 
 .padded {
@@ -81,6 +82,8 @@ a.current {
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
     grid-auto-rows: 0;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .masonry-item {
@@ -97,8 +100,16 @@ a.current {
   .masonry-item img {
      position: relative;
      -webkit-filter: brightness(50%);
+    filter:brightness(100%);
+  }
+
+  .masonry-item img:hover {
+     position: relative;
+     -webkit-filter: brightness(50%);
     filter:brightness(50%);
   }
+
+
 
   .masonry-item:after {
     font-weight: bold;
