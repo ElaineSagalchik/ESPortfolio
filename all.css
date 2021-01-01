@@ -251,6 +251,32 @@ hr.catbreak {
     margin-top: 0px;
 }
 
+.testdescription1{
+        font-size: 1.5vw;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 0px;
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        border-top: 0px;
+        margin-top: 0px;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .testdescription2{
+        font-size: 1.5vw;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 0px;
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        border-top: 0px;
+        margin-top: 0px;
+        margin-left: 60%;
+        width: 30%;
+    }
+
 .resumeitem {
     margin-left: 7%;
     margin-right: 7%;
