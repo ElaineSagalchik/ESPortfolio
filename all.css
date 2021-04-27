@@ -461,3 +461,13 @@ hr.catbreak {
     text-align: center;
 }
 
+.quotes {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #03c6fc;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+}
+
