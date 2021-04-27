@@ -88,6 +88,7 @@ a.current {
 
   .masonry-item {
     border-radius: 5px;
+    /*max-height: 700px; */
   }
 
   .masonry-item {
